@@ -92,8 +92,15 @@ while queenpopulnobj.max_score < 24:
 
     print(queenpopulnobj.max_score)
 
+""" to print by column number
 for i in range(queen_count):
     print(queenpopulnobj.queenpopuln[queenpopulnobj.toppopln].pos[i])
+"""
+
+""" to print by row number """
+
+for i in range(queen_count):
+    print(queenpopulnobj.queenpopuln[queenpopulnobj.toppopln].pos.index(i))
 
 
 
